@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-vue-socket-chat",
+  "version": "1.0.0",
+  "description": "A simle Vue.js nodejs chat on socketsio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "vue",
+    "chat"
+  ],
+  "author": "player0k",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "pug": "^2.0.3",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}
