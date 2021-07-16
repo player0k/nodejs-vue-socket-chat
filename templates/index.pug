@@ -36,7 +36,7 @@ html(lang='en')
               socket: null
             },
             created: function () {
-              this.socket = io(!{socketUrl}).connect();
+              this.socket = io(window.location.href).connect();
             },
             methods: {
               sendMessage: function() {

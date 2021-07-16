@@ -12,7 +12,7 @@ app.use(helmet())
 app.use('/static', express.static(__dirname + '/static'));
 
 app.get('/', function (req, res) {
-  res.render('index',{ socketUrl:`"127.0.0.1:${port}"` });
+  res.render('index');
 });
 
 
